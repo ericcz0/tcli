@@ -1,8 +1,6 @@
 # tcli
 The ultimate CLI tool for TiKV, for human being :).
 
-(Only support Transaction KV API now)
-
 ```
 >>> help
 Commands:
@@ -42,7 +40,17 @@ Commands:
 
 ```
 
-Have a try:
+## Installation
+
+To build tcli, download the repo, `cd` to the main directory and run `make`.
+
+The executable will be written to `/bin/tcli`.
+
+<br />
+
+## Usage with TiUP playground
+
+tcli can be used to communicate with a local TiKV cluster running via tiup playground
 
 1. Install `tiup` 
 
